@@ -123,7 +123,7 @@ function App() {
           />
         </div>
       </div>
-      <div className="px-4">
+      <div className="overflow-auto px-4">
         <table className="w-full min-w-max table-fixed text-left">
           <thead>
             <tr>
