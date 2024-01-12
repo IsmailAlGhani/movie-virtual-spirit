@@ -61,19 +61,19 @@ function App() {
   const {
     data: trendingData,
     isFetching: isFetchingTrending,
-    isError: errorTrending,
+    // isError: errorTrending,
   } = usePopularMovies(search, page);
 
   const {
     data: searchData,
     isFetching: isFetchingSearch,
-    isError: errorSearch,
+    // isError: errorSearch,
   } = useSearchMovies(search, page);
 
   const {
     data: genreData,
     isFetching: isFetchingGenre,
-    isError: errorGenre,
+    // isError: errorGenre,
   } = useGenresMovies();
 
   const isLoading = isFetchingSearch || isFetchingTrending || isFetchingGenre;
